@@ -1,0 +1,38 @@
+.card {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.card__title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.card__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card__img {
+    margin-right: 10px;
+    width: 300px;
+    max-height: 400px;
+    object-fit: contain;    
+    flex-shrink: 0;
+}
+
+.card__info-wrapper {
+    padding: 10px;
+    border-left: 1px solid #000;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.card__text-info {
+    margin-top: 10px;
+}
