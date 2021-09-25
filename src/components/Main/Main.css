@@ -3,3 +3,10 @@
     padding: 20px;
     border: 1px solid #000;
 }
+
+.main__sort-search-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
