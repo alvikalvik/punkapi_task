@@ -1,9 +1,13 @@
 import './Header.css';
 
-function Header() {
+function Header({showModal}) {
     return (
         <header className="header">
-            <h1 className="header__title">Beer collection</h1>
+            <button
+                type="button"
+                className="header__register-btn"
+                onClick={() => showModal()}
+            >Register</button>
         </header>
     );
 }

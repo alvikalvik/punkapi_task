@@ -1,8 +1,16 @@
 .header {
-    margin-top: 10px;
-    border: 1px solid #000;
+    margin-top: 10px;    
 }
 
-.header__title {
-    text-align: center;
+.header__register-btn {
+    display: block;
+    margin: 0 0 0 auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 4px;
+    cursor: pointer;
 }
+
